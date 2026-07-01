@@ -1,0 +1,31 @@
+name: Relatar um problema
+description: Informe um erro reproduzível na interface ou no comportamento.
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: O que aconteceu?
+      description: Explique o comportamento observado e o que você esperava.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Como reproduzir
+      description: Informe rota, idioma, tema e passos mínimos.
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Ambiente
+      description: Navegador, sistema e tamanho de tela, quando relevante.
+  - type: checkboxes
+    id: security
+    attributes:
+      label: Segurança
+      options:
+        - label: Confirmo que este relato não contém detalhes de uma vulnerabilidade.
+          required: true

@@ -1,0 +1,30 @@
+name: Corrigir conteúdo
+description: Sugira uma correção técnica, editorial ou de tradução.
+title: "[Conteúdo]: "
+labels: ["content"]
+body:
+  - type: input
+    id: page
+    attributes:
+      label: Página
+      description: Cole a rota ou informe o ID do conteúdo.
+    validations:
+      required: true
+  - type: dropdown
+    id: language
+    attributes:
+      label: Idioma
+      options:
+        - Português
+        - Inglês
+        - Espanhol
+        - Todos
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: Correção proposta
+      description: Explique o que está impreciso e, se possível, indique uma fonte primária.
+    validations:
+      required: true

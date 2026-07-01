@@ -1,0 +1,16 @@
+.next/
+node_modules/
+out/
+.vercel/
+.turbo/
+.agents/
+.codex/
+coverage/
+playwright-report/
+test-results/
+*.tsbuildinfo
+.env*
+!.env.example
+*.log
+.DS_Store
+Thumbs.db
