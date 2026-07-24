@@ -1,2 +1,1 @@
-export const siteUrl = new URL("https://devatlas.vercel.app");
-
+export const siteUrl = new URL("https://devatlas-mauve.vercel.app");
