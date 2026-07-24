@@ -12,6 +12,8 @@ I created DevAtlas because choosing a path in tech is often harder than finding 
 
 DevAtlas is my attempt to organize that map. It is a free and open guide for students, career changers, and professionals who want to compare paths with more clarity. It is not a course platform, it does not promise fast results, and it does not assume there is one perfect roadmap for everyone.
 
+[View live demo](https://devatlas-mauve.vercel.app/pt) · [Source code](https://github.com/DevOPhost/dev-atlas)
+
 ## What is inside
 
 * Tech areas with routines, responsibilities, skills, roles, and relationships.
@@ -179,6 +181,8 @@ Tecnologia é grande demais para navegar no escuro.
 Eu criei o DevAtlas porque escolher um caminho em tecnologia costuma ser mais difícil do que encontrar conteúdo para estudar. Existem muitas áreas, ferramentas, opiniões e roadmaps, mas nem sempre existe contexto suficiente para entender o que vem antes, o que realmente importa e como cada tecnologia se conecta ao trabalho real.
 
 O DevAtlas é a forma que encontrei de organizar esse mapa. É um guia gratuito e aberto para estudantes, pessoas em transição de carreira e profissionais que querem comparar caminhos com mais clareza. Não é uma plataforma de cursos, não promete resultados rápidos e não parte da ideia de que exista uma trilha perfeita para todo mundo.
+
+[Ver demonstração](https://devatlas-mauve.vercel.app/pt) · [Código-fonte](https://github.com/DevOPhost/dev-atlas)
 
 ## O que há no projeto
 
